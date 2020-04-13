@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1.csproj", "{50C56AE0-1C4C-454A-AFDA-3334959F7308}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{4B3950CE-0592-4292-A1F3-60539852B0FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{D546A66F-AA7B-4429-BDDF-C8D771FF9646}"
+	ProjectSection(SolutionItems) = preProject
+		DB\Setup\Create.sql = DB\Setup\Create.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patches", "Patches", "{79242DB8-B499-4301-8875-75554BCBF77B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{4DAA8BD9-6B43-42B8-A065-352F84CABFF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A3AEE026-7596-4423-9CC2-C3D936F33B0D}"
+	ProjectSection(SolutionItems) = preProject
+		DB\SqlFileConcatenation.ps1 = DB\SqlFileConcatenation.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50C56AE0-1C4C-454A-AFDA-3334959F7308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C56AE0-1C4C-454A-AFDA-3334959F7308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C56AE0-1C4C-454A-AFDA-3334959F7308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C56AE0-1C4C-454A-AFDA-3334959F7308}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D546A66F-AA7B-4429-BDDF-C8D771FF9646} = {4B3950CE-0592-4292-A1F3-60539852B0FC}
+		{79242DB8-B499-4301-8875-75554BCBF77B} = {4B3950CE-0592-4292-A1F3-60539852B0FC}
+		{4DAA8BD9-6B43-42B8-A065-352F84CABFF3} = {4B3950CE-0592-4292-A1F3-60539852B0FC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {698ED03F-2F8F-4A2D-9540-4C6E53C9497B}
+	EndGlobalSection
+EndGlobal
